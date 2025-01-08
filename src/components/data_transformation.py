@@ -56,6 +56,7 @@ class DataTransformation:
             raise CustomException(e,sys)
             
             #now we will create the function thaat will perform the entire workflow
+            #the output of data ingestion
     def initiate_data_transformation(self,train_path,test_path):
         try:
                  
