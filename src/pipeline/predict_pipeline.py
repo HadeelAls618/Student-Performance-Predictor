@@ -35,6 +35,7 @@ class CustomData:
         test_preparation_course: str,
         reading_score: int,
         writing_score: int):
+        
 
         self.gender = gender
 
