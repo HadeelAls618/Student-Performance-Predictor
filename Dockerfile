@@ -3,7 +3,7 @@ FROM python:3.8-slim-buster
 
 # Set environment variables to avoid prompts during installation
 ENV DEBIAN_FRONTEND=noninteractive
-
+  
 # Copy only the requirements file first to leverage Docker caching
 COPY requirements.txt /app/requirements.txt
 
