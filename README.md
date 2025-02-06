@@ -23,7 +23,7 @@ The dataset used for this project comes from Kaggle: [Students Performance in Ex
 ## Key Steps in the Project
 
 ### 1. **Data Ingestion and Transformation Pipeline**
-- Loaded the dataset, analyzed the data, and handled missing values if any.
+- Loaded the dataset, analyzed the data, and handled missing values.
 - Performed feature engineering, such as encoding categorical variables and normalizing numeric features.
 - Split the dataset into training and testing sets.
 
@@ -53,45 +53,6 @@ The dataset used for this project comes from Kaggle: [Students Performance in Ex
 - **MLOps Tools**: Docker, AWS (Elastic Beanstalk, ECR, EC2), GitHub Actions
 - **Version Control**: Git
 - **CI/CD Pipeline**: Docker, AWS, GitHub Actions
-
----
-
-## Repository Structure
-
-```
-complete-ml-project/
-├── .ebextensions           # Elastic Beanstalk configuration files
-├── .github/workflows       # CI/CD pipeline configurations for GitHub Actions
-├── app.py                  # Flask application file
-├── setup.py                # Setup file for the application
-├── requirements.txt        # Python dependencies
-├── data/                   # Data folder
-│   ├── data-s.csv          # Dataset used for the project
-├── notebook/               # Jupyter notebooks for EDA and training
-│   ├── EDA.ipynb           # Exploratory Data Analysis notebook
-│   └── train.ipynb         # Model training notebook
-├── src/                    # Source code for the project
-│   ├── __init__.py         # Init file for source code package
-│   ├── logger.py           # Logging utility for the project
-│   ├── exception.py        # Custom exception handling
-│   ├── utils.py            # Utility functions
-│   ├── components/         # Components for pipeline stages
-│   │   ├── __init__.py     # Init file for components package
-│   │   ├── data_ingestion.py  # Data ingestion scripts
-│   │   ├── data_transformation.py # Data transformation scripts
-│   │   ├── model_trainer.py      # Model training scripts
-│   ├── pipeline/           # Pipelines for the project
-│   │   ├── __init__.py     # Init file for pipeline package
-│   │   ├── predict_pipeline.py  # Prediction pipeline scripts
-├── templates/              # HTML templates for Flask app
-│   ├── home.html           # Home page template
-│   ├── index.html          # Index page template
-├── logs/                   # Log files
-│   ├── daily-wise.log      # Daily log file
-├── test_app.py             # Test script for the Flask application
-├── .gitignore              # Git ignore file
-├── README.md               # Readme file
-```
 
 ---
 
