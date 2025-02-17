@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project demonstrates the entire lifecycle of a machine learning application, starting from data ingestion to deploying the model into production. The project focuses on predicting student performance based on various input features like gender, parental education, test preparation, and scores in other subjects. A Flask web app was developed to take input about a student and predict their potential exam score.
+This project demonstrates the entire lifecycle of a machine learning application, starting from data ingestion to deploying the model into production. The project focuses on predicting student performance based on various input features like gender, parental education, test preparation, and scores in other subjects. A Flask web app was developed to take input about a student and predict their potential exam score..
 
 ---
 
