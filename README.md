@@ -75,6 +75,6 @@ Key highlights include:
 
 Feel free to connect if you have questions or want to collaborate!
 
--  [LinkedIn](https://www.linkedin.com/in/hadeel-als-0a23702a6)  
+-  [LinkedIn](https://www.linkedin.com/in/hadeel-als)  
 -  [alsaadonhadeel@gmail.com](mailto:alsaadonhadeel@gmail.com)
 
